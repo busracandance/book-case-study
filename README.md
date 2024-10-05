@@ -33,3 +33,14 @@ This project is a **Book Management API** built with **TypeScript** and **Expres
 | PUT    | `/`          | Update an existing book|
 | DELETE | `/:id`       | Delete a book by ID    |
 
+## Installation
+
+[![NPM](https://img.shields.io/badge/NPM-v7.x-orange)](https://www.npmjs.com/)
+[![Docker](https://img.shields.io/badge/Docker-19.x-blue)](https://www.docker.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-4.x-brightgreen)](https://www.mongodb.com/)
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/book-management-api.git
+   cd book-management-api
+
