@@ -41,6 +41,27 @@ This project is a **Book Management API** built with **TypeScript** and **Expres
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/book-management-api.git
+   git clone https://github.com/busracandance/book-case-study.git
    cd book-management-api
+2. **Create .env file**
+    ```bash
+    NODE_ENV=****
+    MONGO_URL=*****
+    MONGO_DB_NAME=*****
+    MONGO_DB_USER=*****
+    MONGO_DB_PASSWORD=*****
+    PORT=******
+3. **Running for locally:**
+   ```bash
+   npm install
+   npm start
+4. **Running with Docker:**
+   ```bash
+   docker compose up
+5. **Runnig tests:**
+   ```bash
+   npm run test
+
+   
+
 
