@@ -1,0 +1,13 @@
+package-lock.json
+
+# Dependencies
+node_modules
+
+# Built TS Files
+dist/**/*
+
+# Test Files
+coverage
+
+# Keys
+.env
