@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+# MongoDB Services
+  mongo_db:
+    container_name: db_container
+    image: mongo:latest
+    restart: always
+    environment:
+      MONGO_INITDB_DATABASE: book_management
+    ports:
+      - 27117:27017
+    volumes:
+      - mongo_db:/data/db
+
+  # Node API Service
+  
+  api:
+    build: .
+    ports:
+      - 4000:3000
+    volumes:
+      - .:/usr/src/app
+    environment:
+      PORT: 3000
+      MONGO_URL: mongodb://mongo_db:27017/book_management
+      NODE_ENV: development
+      DB_NAME: book_management
+    depends_on:
+      - mongo_db
+    
+volumes:
+  mongo_db: {}
