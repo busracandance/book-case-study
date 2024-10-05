@@ -55,7 +55,5 @@
 5. **Runnig tests:**
    ```bash
    npm run test
-
-   
-
-
+6. **Test result screenshot**
+   ![Test Results](./test/book_case_test.png?raw=true "")
