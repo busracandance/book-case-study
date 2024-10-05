@@ -37,7 +37,6 @@
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/busracandance/book-case-study.git
-   cd book-management-api
 2. **Create .env file**
     ```bash
     NODE_ENV=****
